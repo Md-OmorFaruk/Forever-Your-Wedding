@@ -14,6 +14,7 @@ import image11 from '../images/moments_switzerland-1024x683.jpg'
 import divider from '../images/divider.png'
 import { useEffect, useState } from 'react'
 import DataEvent from '../DataEvent/DataEvent'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
       const [data, setData] = useState([]);
@@ -54,7 +55,7 @@ const Home = () => {
                    <div>
                         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5'>
                               {
-                              data.map(data=><DataEvent key={data.id} data={data}></DataEvent>)
+                              data.map(data=><Link key={data.id} to={`data/${data.id}`}><DataEvent key={data.id} data={data}></DataEvent></Link>)
                         }
                         </div>
                        
