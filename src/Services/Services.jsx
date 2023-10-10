@@ -22,7 +22,8 @@ const Services = () => {
             </div>
             </div>
                   </div>
-                  <h1 className="font-fon1 text-5xl font-extrabold my-10">Wedding Events</h1>
+                  <h1 className="font-fon1 text-5xl font-extrabold my-10 text-sky-500 text-center"><span className="text-blue-800">Wedding </span>Events:</h1>
+                  <hr className="w-1/2 mx-auto" />
                         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5'>
                               {
                               dataService.map(data=><Link key={data.id} to={`data/${data.id}`}><DataEvent key={data.id} data={data}></DataEvent></Link>)

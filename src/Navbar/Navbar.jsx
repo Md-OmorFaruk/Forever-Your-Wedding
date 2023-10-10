@@ -1,7 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
-import user from '../images/user.png'
+import user1 from '../images/user.png'
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Navbar = () => {
+      const { user,logout } = useContext(AuthContext)
+       const logoutHandle = () => {
+             logout()
+                  .then()
+                  .catch()
+            
+      }
       
       const navlinks = <>
             <li><NavLink to='/'>Home</NavLink></li>
@@ -30,13 +39,19 @@ const Navbar = () => {
                         <div>
                               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                               <div className="w-10 rounded-full">
-                              <img src={user} className="object-cover" />
+                              <img src={user1} className="object-cover" />
                               </div>
                               </label>
                         </div>
+                        {
+                              user? <>
+                                     <Link onClick={logoutHandle} to='/login' className="btn bg-sky-400 text-white hover:bg-sky-600">Logout</Link>
+                              
+                              </> : <>
+                              <Link to='/register' className="btn bg-sky-400 hover:bg-sky-600 text-white">Register</Link>
+                                    <Link to='/login' className="btn bg-sky-400 text-white hover:bg-sky-600">Login</Link></>
+                        }
 
-                         <Link to='/register' className="btn bg-sky-400 hover:bg-sky-600 text-white">Register</Link>
-                        <Link to='/login' className="btn bg-sky-400 text-white hover:bg-sky-600">Sign in</Link>
                         
                   </div>
                   </div>
