@@ -1,4 +1,4 @@
-Website Live link ➼ https://github.com/programming-hero-web-course-4/b8a9-event-management-Md-OmorFaruk
+Website Live link ➼ https://652538e8e756f618040e776b--super-ganache-d2fc2e.netlify.app/
 
 Here are five key features and functionalities for a wedding event planner website:
 

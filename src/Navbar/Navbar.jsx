@@ -44,7 +44,8 @@ const Navbar = () => {
                               </label>
                         </div>
                         {
-                              user? <>
+                              user ? <>
+                                    <Link to='/login' className="btn bg-sky-400 text-white hover:bg-sky-600">{user.email}</Link>
                                      <Link onClick={logoutHandle} to='/login' className="btn bg-sky-400 text-white hover:bg-sky-600">Logout</Link>
                               
                               </> : <>
