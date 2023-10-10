@@ -8,14 +8,11 @@ import image5 from '../images/moments_croatia-1024x683.jpg'
 import image6 from '../images/moments_love-1024x683.jpg'
 import image7 from '../images/moments_newhouse-1024x683.jpg'
 import image8 from '../images/moments_norway-1024x577.jpg'
-import image9 from '../images/moments_wedding-683x1024.jpg'
 import image10 from '../images/moments_thailand-1024x683.jpg'
 import image11 from '../images/moments_switzerland-1024x683.jpg'
-import image12 from '../images/moments_summertime-1024x670.jpg'
-
-
 
 import divider from '../images/divider.png'
+
 const Home = () => {
       return (
             <div>
@@ -31,7 +28,7 @@ const Home = () => {
             </div>
             <div className="hero min-h-screen ">
                   <div className="hero-content flex-col-reverse text-center lg:text-left lg:flex-row gap-5 lg:gap-16 xl:gap-40 justify-between ">
-                  <img src={exampleImage}  alt="Couple" className="max-w-xl min-h-[85vh] rounded-lg shadow-2xl " />
+                  <img src={exampleImage}  alt="Couple" className="max-w-xl min-h-[85vh] rounded-lg shadow-2xl transition duration-300 ease-in-out transform hover:scale-105" />
                               <div className='max-w-xl'>
                                     <p className='font-fon1 text-4xl'>About Us</p>
                         <h1 className="text-5xl font-bold">Unrivaled Scenery. Unforgettable Experience.</h1>
@@ -55,7 +52,7 @@ const Home = () => {
                         
                   </div>
                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-fit gap-5 mt-16 mb-16 mx-auto'>
-                            <img className='h-56 w-72' src={image1} alt="" /><img className='h-56 w-72' src={image3}  alt=""  /><img className='h-56  w-72' src={image4}  alt="" /><img className='h-56  w-72' src={image5}  alt="" /><img className='h-56 w-72' src={image3}  alt="" /><img className='h-56  w-72' src={image6} alt="" /><img className='h-56  w-72' src={image7} alt="" /><img className='h-56  w-72' src={image8} alt="" /><img className='h-56  w-72' src={image10}  alt="" /><img className='h-56  w-72' src={image11} alt="" />
+                            <img className='h-44 w-72 object-cover transition duration-300 ease-in-out transform hover:scale-105'src={image1} alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image3}  alt=""  /><img className='object-cover transition duration-300 ease-in-out transform hover:scale-105 h-44  w-72' src={image4}  alt="" /><img className='object-cover h-44 transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image5}  alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image3}  alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image6} alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image7} alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image8} alt="" /><img className='h-44  w-72 object-cover transition duration-300 ease-in-out transform hover:scale-105' src={image10}  alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image11} alt="" />
                         </div>
             </div>
       );
