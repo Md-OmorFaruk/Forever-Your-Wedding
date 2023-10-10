@@ -12,7 +12,7 @@ const DataEvent = ({ data }) => {
                         <p>{description}</p>
             <div className="card-actions">
                               <button className="btn btn-primary bg-sky-500 border-none font-bold text-white">price  {price}</button>
-                             <button className="btn btn-primary bg-sky-500 border-none font-bold text-white">{button}</button>
+                            <Link to={`/data/${id}`}> <button className="btn btn-primary bg-sky-500 border-none font-bold text-white">{button}</button></Link>
             </div>
             </div>
             </div>

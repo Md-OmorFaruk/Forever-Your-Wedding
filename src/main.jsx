@@ -12,6 +12,8 @@ import Blog from './Blog/Blog';
 import Login from './Login/Login';
 import Register from './Register/Register';
 import AuthProvider from './Provider/AuthProvider';
+import EventMore from './EventMore/EventMore';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/data/:id',
+        element: <PrivateRoute><EventMore></EventMore></PrivateRoute>,
+        loader:()=>fetch('EventData.json')
+
       },
       {
         path: '/services',

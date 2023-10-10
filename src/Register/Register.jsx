@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 
 
+
 const Register = () => {
       // const {success, setSuccess} = useState(null)
      
@@ -21,6 +22,7 @@ const Register = () => {
               createUser(email, password)
                     .then(result => {
                           console.log(result.user);
+                          
                           //setSuccess('Your register successfully');
                     })
                     .catch(error => {
@@ -62,7 +64,7 @@ const Register = () => {
                               <input type="password" placeholder="password" name="password" className="input input-bordered" required />
                               </div>
                               <div className="form-control mt-6">
-                              <button className="btn btn-primary text-white">Register</button>
+                              <button  className="btn btn-primary text-white">Register</button>
                                     </div>
                               </form>
 
