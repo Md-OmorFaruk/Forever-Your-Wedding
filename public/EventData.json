@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "image": "path/to/image1.jpg",
-    "title": "Enchanting Garden Affair",
+    "image": "https://img.freepik.com/free-photo/side-view-photographer-married-couple_23-2150264490.jpg?w=996&t=st=1696920498~exp=1696921098~hmac=df53e62073012373e3c098daf8d9455e41674a8d8c4b93655522f82c17bcfb87",
+    "title": "Arrival & Check In",
     "description": "Immerse yourself in the allure of nature with our enchanting garden wedding package. Exchange vows under the open sky amidst blooming flowers, surrounded by the sweet melody of birds. This package includes exquisite floral arrangements, gourmet dining, and personalized services for an unforgettable celebration of love.",
     "price": "$5000",
     "button": "Book Now"
   },
   {
     "id": 2,
-    "image": "path/to/image2.jpg",
-    "title": "Timeless Elegance Soiree",
+    "image": "https://img.freepik.com/free-photo/blue-white-wedding-aisle-beach-surrounded-by-palms-with-sea-background_181624-32618.jpg?w=996&t=st=1696920682~exp=1696921282~hmac=b7902a4f544136397effe3db79f7880e16da07b3c6fc042be20183be444cb8ba",
+    "title": "Wedding Ceremony",
     "description": "Step into a world of timeless elegance and sophistication. Our wedding package offers a splendid venue adorned with opulent decor, creating a romantic ambiance that echoes with love. Indulge in delectable cuisine, expertly crafted cocktails, and a dedicated team to fulfill your every desire. Make your dream wedding a reality with this exquisite experience.",
     "price": "$5500",
     "button": "Book Now"
   },
   {
     "id": 3,
-    "image": "path/to/image3.jpg",
+    "image": "https://img.freepik.com/free-photo/full-shot-smiley-people-posing-wedding_23-2149956422.jpg?w=996&t=st=1696920868~exp=1696921468~hmac=c018d64bd1be4f098c89c55091a3cf28ea0bc94f74bd9e3d2473484fd17c4d82",
     "title": "Whimsical Fairytale Celebration",
     "description": "Embark on a whimsical journey through our fairytale-themed wedding package. Enchanting settings, magical lighting, and dreamlike decorations await to bring your favorite storybook to life. Enjoy a feast fit for royalty, personalized service, and a night filled with enchantment. Create memories that will last a lifetime in this captivating fairytale celebration.",
     "price": "$5200",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "path/to/image4.jpg",
+    "image": "https://img.freepik.com/free-photo/man-stands-shore-lake-garda-against-sunset-sky_346278-211.jpg?w=996&t=st=1696920786~exp=1696921386~hmac=77c97928380c9189c8053393b279e65a0d929e675edfacae60b59fda5eba4b33",
     "title": "Rustic Romance Retreat",
     "description": "Celebrate your love in a rustic retreat, surrounded by the charm of nature. Our package offers a cozy barn venue, warm candlelight, and a rustic chic atmosphere. Indulge in farm-to-table cuisine, heartfelt vows, and a night of dancing under the stars. Create timeless memories in this intimate and romantic setting.",
     "price": "$4800",
@@ -33,15 +33,15 @@
   },
   {
     "id": 5,
-    "image": "path/to/image5.jpg",
-    "title": "Oceanfront Euphoria",
+    "image": "https://img.freepik.com/free-photo/commitment-cake-fireworks_1157-121.jpg?w=996&t=st=1696920730~exp=1696921330~hmac=4270606fa5a301db58ff6afad7d44ed052eb63b4e073a4a5381a69d11db88c0a",
+    "title": "Cake Cutting",
     "description": "Say 'I do' with the sound of waves as your orchestra in our oceanfront wedding package. Experience the serenity of the sea, soft sands beneath your feet, and the embrace of a gentle sea breeze. Delight in fresh seafood, beachside vows, and a sunset reception that paints the sky in hues of love. Let the ocean be witness to your eternal commitment.",
     "price": "$5800",
     "button": "Book Now"
   },
   {
     "id": 6,
-    "image": "path/to/image6.jpg",
+    "image": "https://img.freepik.com/free-photo/beautiful-young-fashion-stylish-couple-walking-street-city_1328-3185.jpg?w=996&t=st=1696920921~exp=1696921521~hmac=819070499df6c11e34958c5d0b35f0bff804034c5460722e16b0320f7b80554d",
     "title": "Regal Palace Affair",
     "description": "Embrace the grandeur of royalty in our regal palace wedding package. Exchange vows in opulent halls adorned with chandeliers and majestic architecture. Indulge in a feast fit for kings and queens, elegant ballroom dances, and personalized services that make you feel like royalty. Let your love story be told in the grandest way.",
     "price": "$6500",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "image": "path/to/image7.jpg",
+    "image": "https://img.freepik.com/free-photo/lesbian-couple-celebrating-their-wedding-day-with-guests-friends_23-2150637613.jpg?w=996&t=st=1696920962~exp=1696921562~hmac=ac0e7c353b3c188f21bfd87025d72f38f137b8ac315de58a833cb16a66a35d4d",
     "title": "Bohemian Bliss Celebration",
     "description": "Escape into the whimsical world of bohemian romance. Our package offers a Boho-chic setting, dreamy floral arrangements, and a carefree atmosphere. Exchange vows under a floral arch, savor eclectic cuisine, and dance barefoot under the stars. Let the free-spirited vibe create an unforgettable and laid-back celebration of love.",
     "price": "$5100",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "image": "path/to/image8.jpg",
+    "image": "https://img.freepik.com/free-photo/bride-lying-his-husband_1157-148.jpg?w=1060&t=st=1696920995~exp=1696921595~hmac=408409b72fbdee598ebb91a31619a7b0fba219d6cb924a04872e4def19f3dad6",
     "title": "Modern Love Affair",
     "description": "Experience the epitome of contemporary elegance in our modern love affair wedding package. Celebrate amidst sleek architecture, minimalist decor, and avant-garde style. Indulge in innovative cuisine, cutting-edge entertainment, and a sophisticated ambiance that reflects your modern love story. Make a statement with a wedding that is as unique as your love.",
     "price": "$5900",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "image": "path/to/image9.jpg",
+    "image": "https://img.freepik.com/free-photo/bride-groom-their-wedding-ceremony_1303-28370.jpg?w=996&t=st=1696921029~exp=1696921629~hmac=8aef006dbe621af405572c3385f19dc8e762e59bd6ad6ca95abb74d91977d8cc",
     "title": "Charming Countryside Wedding",
     "description": "Fall in love all over again in a charming countryside wedding. Exchange vows in a picturesque barn, surrounded by rolling hills and blooming meadows. Indulge in farm-fresh cuisine, rustic decor, and a cozy, intimate atmosphere. Let the charm of the countryside add a touch of magic to your special day.",
     "price": "$4600",

@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         font: "'Crimson Text'",
-        fon1:"'Cookie', 'cursive'"
+        fon1: "'Cookie', 'cursive'",
+        font2:"'Young Serif', 'serif'"
       }
     },
   },

@@ -12,8 +12,17 @@ import image10 from '../images/moments_thailand-1024x683.jpg'
 import image11 from '../images/moments_switzerland-1024x683.jpg'
 
 import divider from '../images/divider.png'
+import { useEffect, useState } from 'react'
+import DataEvent from '../DataEvent/DataEvent'
 
 const Home = () => {
+      const [data, setData] = useState([]);
+      useEffect(() => {
+            fetch('EventData.json')
+                  .then(res => res.json())
+                  .then(data => setData(data))
+      },[])
+      
       return (
             <div>
                   <div className="hero min-h-[90vh]" style={{ backgroundImage: `url(${backgroundImage})`}}>
@@ -37,10 +46,18 @@ const Home = () => {
                   </div>
                   </div>
                   </div>
-                  <div className='text-center max-w-lg mx-auto'>
+                  <div className='text-center max-w-lg mx-auto mt-10'>
                         <h1 className='text-6xl font-fon1 mb-3 text-sky-600' >Wedding Events</h1>
                         <img src={divider} alt="" className='w-40 max-w-fit mx-auto mb-3' />
-                        <p className='mb-3'>It would mean a lot for us to have you on all the wedding events.Below you can see the location of each event separately.</p>
+                        <p className=''>It would mean a lot for us to have you on all the wedding events.Below you can see the location of each event separately.</p>
+                  </div>
+                   <div>
+                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5'>
+                              {
+                              data.map(data=><DataEvent key={data.id} data={data}></DataEvent>)
+                        }
+                        </div>
+                       
                   </div>
 
 
@@ -53,7 +70,8 @@ const Home = () => {
                   </div>
                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-fit gap-5 mt-16 mb-16 mx-auto'>
                             <img className='h-44 w-72 object-cover transition duration-300 ease-in-out transform hover:scale-105'src={image1} alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image3}  alt=""  /><img className='object-cover transition duration-300 ease-in-out transform hover:scale-105 h-44  w-72' src={image4}  alt="" /><img className='object-cover h-44 transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image5}  alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image3}  alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image6} alt="" /><img className='h-44 transition duration-300 ease-in-out transform hover:scale-105 object-cover w-72' src={image7} alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image8} alt="" /><img className='h-44  w-72 object-cover transition duration-300 ease-in-out transform hover:scale-105' src={image10}  alt="" /><img className='h-44 object-cover transition duration-300 ease-in-out transform hover:scale-105 w-72' src={image11} alt="" />
-                        </div>
+                  </div>
+                  
             </div>
       );
 };
