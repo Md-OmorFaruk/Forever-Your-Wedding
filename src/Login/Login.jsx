@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FcGoogle } from 'react-icons/fc';
 
 const Login = () => {
       return (
@@ -29,7 +30,11 @@ const Login = () => {
                               <button className="btn btn-primary text-white">Login</button>
                               </div>
                               </form>
-                              <p className="text-center pb-3">New Here ? <Link className="text-blue-800 font-bold" to="/register">Register Here</Link></p>
+                              
+                                           <button className="btn normal-case max-w-fit mx-auto">
+                                    <FcGoogle></FcGoogle>Login with Google</button>
+
+                              <p className="text-center pb-3 pt-3">New Here ? <Link className="text-blue-800 font-bold" to="/register">Register Here</Link></p>
                         </div>
                         </div>
                         </div>

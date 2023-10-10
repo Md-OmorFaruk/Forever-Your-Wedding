@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { FcGoogle } from 'react-icons/fc';
 
 const Register = () => {
       return (
@@ -30,21 +29,11 @@ const Register = () => {
                               <input type="password" placeholder="password" name="password" className="input input-bordered" required />
                               </div>
                               <div className="form-control mt-6">
-                              <button className="btn btn-primary text-white">Login</button>
+                              <button className="btn btn-primary text-white">Register</button>
                                     </div>
                               </form>
-                              <div className="flex items-center text-center gap-6 max-w-fit mx-auto pb-4">
-                                    <div>
-                                           <p className=" pb-3 font-bold">Login with </p>
-                                    </div>
-                                    <div>
-                                           <button className="btn normal-case max-w-fit mx-auto">
-                                    <FcGoogle></FcGoogle>Google</button>
-                                    </div>
-                                    </div>
 
-                              
-                              <p className="text-center pb-3">Already register ? <Link className="text-blue-800 font-bold" to="/login">Login Here</Link></p>
+                              <p className="text-center pb-3 pt-3">Already register ? <Link className="text-blue-800 font-bold" to="/login">Login Here</Link></p>
                         </div>
                         </div>
                         </div>
